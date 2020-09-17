@@ -1,8 +1,5 @@
 import React, {Component, FormEvent} from 'react'
-import ReactDOM from 'react-dom'
 import './InputField.scss'
-import ToDoTask from'./ToDoTask'
-import './ToDoTask.scss'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 

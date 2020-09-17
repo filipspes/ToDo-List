@@ -1,9 +1,6 @@
 import React from 'react';
 import './App.css';
 import InputField from  './InputField'
-import ToDoTask from'./ToDoTask'
-import DateP from  './DatePicker'
-import ListOfItems from  './ListOfItems'
 
 function App() {
   return (

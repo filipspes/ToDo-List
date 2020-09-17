@@ -1,12 +1,5 @@
 import React, {Component, FormEvent} from 'react'
-import ReactDOM from 'react-dom'
 import './InputField.scss'
-import ToDoTask from'./ToDoTask'
-import './ToDoTask.scss'
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
-import DateP from  './DatePicker'
-import Item from  './Item'
 
 class ListOfItems extends React.Component{
 
@@ -21,11 +14,6 @@ class ListOfItems extends React.Component{
 
 
     listOfItems = () =>{
-        // var day = new Date().getDate();
-        // var month = new Date().getMonth() + 1;
-        // var year = new Date().getFullYear();
-
-        // console.log("Current day: " +day + "/" + month + "/" + year);
 
         if(this.state.items.length === 0){
             return;
